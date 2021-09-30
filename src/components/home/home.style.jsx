@@ -10,6 +10,7 @@ export const HomeContainer = styled("header")`
 `;
 
 export const HomeText = styled("div")`
+  padding: ${({ theme }) => theme.spacing(5, 0)};
   width: 100%;
   background-color: var(--grey);
   font-size: 4em;
