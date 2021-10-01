@@ -13,6 +13,11 @@ export const Section = styled("section")`
     padding-bottom: 50px;
     background-color: ${({ theme }) => theme.palette.secondary.main};
   }
+  ${({ theme }) => theme.breakpoints.down("md")} {
+    img {
+      display: none;
+    }
+  }
 `;
 
 export const ImgLeft = styled("img")`
@@ -25,6 +30,20 @@ export const ImgRigth = styled("img")`
 
 export const ListUl = styled("ul")`
   color: ${({ theme }) => theme.palette.secondary.main};
+  max-width: 500px;
+  ${({ theme }) => theme.breakpoints.down("md")} {
+    max-width: 100%;
+  }
 `;
 
 export const Text = styled(Typography)``;
+
+export const Title = styled(Typography)`
+  font-weight: 600;
+  span {
+    color: ${({ theme }) => theme.palette.text.secondary};
+  }
+  ${({ theme }) => theme.breakpoints.down("sm")} {
+    font-size: 2em;
+  }
+`;

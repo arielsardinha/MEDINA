@@ -1,16 +1,20 @@
-import { Container, Box, Typography } from "@material-ui/core";
-import { IntroductionContainer, ListUl, Text } from "./sectionIntroduction.styled";
-import { Title } from "../global.styled";
+import { Container, Box } from "@material-ui/core";
+import {
+  IntroductionContainer,
+  ListUl,
+  Text,
+  Title,
+} from "./sectionIntroduction.styled";
 
 const SectionIntroduction = () => {
   return (
     <IntroductionContainer>
       <Container>
         <Box sx={{ display: "flex", flexDirection: "column" }}>
-          <Title variant={"h2"}>
+          <Title sx={{ mb: 3 }} variant={"h2"}>
             A HSI é <span> líder global</span>
           </Title>
-          <Text variant={"body2"} color={"primary"} >
+          <Text variant={"body2"} color={"primary"}>
             em SISTEMAS DE ARMAZENAGEM DE GRÃOS:
             <br /> armazenagem, acondicionamento, movimentação, monitoramento e
             gerenciamento.

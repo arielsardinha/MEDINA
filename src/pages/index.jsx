@@ -9,6 +9,7 @@ import InfoSiloLeft from "../components/section5/infoSiloLeft";
 import InfoSiloRigth from "../components/section5/inforSiloRigth";
 import ProcessDrayer from "../components/section6/processDryer";
 import Transporter from "../components/section7/transporter";
+import Footer from "../components/footer/footer";
 
 export default function Index() {
   return (
@@ -32,6 +33,7 @@ export default function Index() {
           <ProcessDrayer />
           <BackgroundImgFlat />
           <Transporter />
+          <Footer />
         </main>
       </Container>
     </>

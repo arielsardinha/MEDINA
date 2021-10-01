@@ -1,14 +1,16 @@
 import { Container, Typography } from "@material-ui/core";
 import { Box } from "@material-ui/system";
-import { Title } from "../global.styled";
 import { ListUl } from "../section6/processDryer.style";
-import { BoxTexts, Text, BoxTextLeft } from "./transporter.style";
+import { BoxTexts, Text, BoxTextLeft, Title } from "./transporter.style";
 const Transporter = () => {
   return (
     <>
       <Container>
-        <Box sx={{ py: 5 }}>
-          <Title variant={"h3"} align={"rigth"}></Title>
+        <Box sx={{ py: 5, display: "flex", justifyContent: "flex-end" }}>
+          <Title variant={"h3"}>
+            Transportadores
+            <br /> <span>de grãos</span>
+          </Title>
         </Box>
       </Container>
       <BoxTexts>
@@ -18,6 +20,7 @@ const Transporter = () => {
               display: "flex",
               justifyContent: "space-between",
               alignItems: "center",
+              flexWrap: "wrap",
             }}
           >
             <BoxTextLeft sx={{ display: "flex", flexDirection: "column" }}>

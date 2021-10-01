@@ -1,12 +1,12 @@
 import { Container } from "@material-ui/core";
 import { Box } from "@material-ui/system";
-import { Title, Text } from "../global.styled";
-
+import { Text } from "../global.styled";
+import { Title } from "./storage.style";
 const SectionStorage = () => {
   return (
-    <Box sx={{ my: 15 }}>
+    <Box sx={{ pt: 2 }}>
       <Container>
-        <Title variant={"h2"}>
+        <Title sx={{ mb: 2 }} variant={"h2"}>
           Silos de <br /> <span> armazenagem</span>
         </Title>
         <Text>

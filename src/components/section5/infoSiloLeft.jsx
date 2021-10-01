@@ -1,7 +1,6 @@
 import { Container } from "@material-ui/core";
 import { Box } from "@material-ui/system";
-import { Title } from "../global.styled";
-import { ImgLeft, ListUl, Section, Text } from "./infoSiloLeft.style";
+import { ImgLeft, ListUl, Section, Text, Title } from "./infoSiloLeft.style";
 
 const InfoSiloLeft = () => {
   return (

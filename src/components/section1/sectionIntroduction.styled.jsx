@@ -14,3 +14,14 @@ export const ListUl = styled("ul")`
 `;
 
 export const Text = styled(Typography)``;
+
+
+export const Title = styled(Typography)`
+  font-weight: 600;
+  span {
+    color: ${({ theme }) => theme.palette.text.secondary};
+  }
+  ${({ theme }) => theme.breakpoints.down("sm")} {
+    font-size: 2em;
+  }
+`;

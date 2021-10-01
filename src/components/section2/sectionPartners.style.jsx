@@ -1,7 +1,7 @@
 import { styled } from "@material-ui/core/styles";
 
 export const ContainerSection = styled("section")`
-  padding: ${({ theme }) => theme.spacing(15, 0)};
+  padding: ${({ theme }) => theme.spacing(15, 0, 0, 0)};
 `;
 
 export const BoxIconPatners = styled("figure")`

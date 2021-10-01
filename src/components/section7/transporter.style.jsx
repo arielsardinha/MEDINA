@@ -8,7 +8,7 @@ export const BoxTexts = styled("section")`
 `;
 
 export const Text = styled(Typography)`
-    color: #fff;
+  color: #fff;
 `;
 
 export const ListUl = styled("ul")`
@@ -20,4 +20,17 @@ export const ListUl = styled("ul")`
 
 export const BoxTextLeft = styled(Box)`
   max-width: 600px;
+  ${({ theme }) => theme.breakpoints.down("md")} {
+    margin: ${({ theme }) => theme.spacing(5, 0)};
+  }
+`;
+
+export const Title = styled(Typography)`
+  font-weight: 600;
+  span {
+    color: ${({ theme }) => theme.palette.text.secondary};
+  }
+  ${({ theme }) => theme.breakpoints.down("sm")} {
+    font-size: 2em;
+  }
 `;

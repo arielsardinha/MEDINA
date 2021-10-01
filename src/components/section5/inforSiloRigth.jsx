@@ -1,12 +1,12 @@
 import { Container } from "@material-ui/core";
 import { Box } from "@material-ui/system";
-import { Title } from "../global.styled";
 import {
   BackgroundText,
   ImgRigth,
   ListUl,
   Section,
   Text,
+  Title,
 } from "./infoSiloLeft.style";
 
 const InfoSiloRigth = () => {

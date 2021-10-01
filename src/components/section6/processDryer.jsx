@@ -1,17 +1,16 @@
 import { Container } from "@material-ui/core";
 import { Box } from "@material-ui/system";
-import { Title } from "../global.styled";
-import { Background, ListUl, Text } from "./processDryer.style";
+import { Background, ListUl, Text, Title } from "./processDryer.style";
 
 const ProcessDrayer = () => {
   return (
-    <Background sx={{ py: 15, my: 5 }} variant={"section"}>
+    <Background sx={{ py: 15 }} variant={"section"}>
       <Container>
         <Box sx={{ display: "flex" }}>
-          <Title sx={{ mr: 2 }} variant={"h3"}>
+          <Title sx={{ mr: 2, mb: 3 }} variant={"h3"} color={"white"}>
             Secador de grãos
           </Title>
-          <img src="" alt="PROCESS DRYER" />
+          <img src="process-dryer.png" alt="PROCESS DRYER" />
         </Box>
         <Text>O melhor secador para você em</Text>
         <ListUl>

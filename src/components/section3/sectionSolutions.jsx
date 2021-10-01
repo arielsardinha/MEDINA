@@ -1,11 +1,11 @@
 import { Container, Typography } from "@material-ui/core";
 import { Box } from "@material-ui/system";
-import { BoxText, IconText } from "./sectionSolutions.style";
-import { Title, Text } from "../global.styled";
+import { BoxText, IconText, Title } from "./sectionSolutions.style";
+import { Text } from "../global.styled";
 
 const SectionSolutions = () => {
   return (
-    <Box sx={{ my: 15 }}>
+    <Box sx={{ py: 10 }}>
       <Container>
         <Title variant={"h2"}>
           Soluções completas em
@@ -35,24 +35,20 @@ const SectionSolutions = () => {
         </Box>
         <Box sx={{ display: "flex", justifyContent: "space-between" }}>
           <IconText>
-            <img src="" alt="icon" />
             <Text>projetos customizados conforme necessidade do cliente</Text>
           </IconText>
           <IconText>
-            <img src="" alt="icon" />
             <Text>entrega da solução mecânica completa</Text>
           </IconText>
         </Box>
         <Box sx={{ display: "flex", justifyContent: "space-between" }}>
           <IconText>
-            <img src="" alt="icon" />
             <Text>
               otimização do investimento: layout do projeto, disposição e
               modelos de equipamentos que garantam qualidade e maior eficiência
             </Text>
           </IconText>
           <IconText>
-            <img src="" alt="icon" />
             <Text>tecnologia que maximiza os resultados da produção</Text>
           </IconText>
         </Box>

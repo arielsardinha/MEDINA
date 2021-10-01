@@ -18,3 +18,13 @@ export const IconText = styled("div")`
     top: -20px;
   }
 `;
+
+export const Title = styled(Typography)`
+  font-weight: 600;
+  span {
+    color: ${({ theme }) => theme.palette.text.secondary};
+  }
+  ${({ theme }) => theme.breakpoints.down("sm")} {
+    font-size: 2em;
+  }
+`;
