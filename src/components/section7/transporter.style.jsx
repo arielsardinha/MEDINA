@@ -4,7 +4,12 @@ import { Box } from "@material-ui/system";
 
 export const BoxTexts = styled("section")`
   padding: ${({ theme }) => theme.spacing(10, 0)};
-  background-color: var(--grey);
+  background: rgb(0, 48, 50);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 48, 50, 1) 0%,
+    rgba(47, 48, 49, 1) 100%
+  );
 `;
 
 export const Text = styled(Typography)`
