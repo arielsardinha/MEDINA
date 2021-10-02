@@ -11,8 +11,8 @@ const SectionIntroduction = () => {
     <IntroductionContainer>
       <Container>
         <Box sx={{ display: "flex", flexDirection: "column" }}>
-          <Title sx={{ mb: 3 }} variant={"h2"}>
-            A HSI é <span> líder global</span>
+          <Title sx={{ mb: 3 }} variant={"h2"} color={"white"}>
+            A GSI é <span> líder global</span>
           </Title>
           <Text variant={"body2"} color={"primary"}>
             em SISTEMAS DE ARMAZENAGEM DE GRÃOS:

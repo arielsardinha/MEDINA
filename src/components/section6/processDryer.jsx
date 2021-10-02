@@ -27,7 +27,7 @@ const ProcessDrayer = () => {
             <Text>Reduzida emissão de partículas</Text>
           </li>
           <li>
-            <Text>Capacidades de secagem de 20a 230 ton/h</Text>
+            <Text>Capacidades de secagem de 20 a 230 ton/h</Text>
           </li>
           <li>
             <Text>Utilizado para secagem de grãos comerciais e sementes</Text>
