@@ -14,13 +14,13 @@ const SectionSolutions = () => {
         <Box
           sx={{
             display: "flex",
-            flexWrap: "whap",
+            flexWrap: "wrap",
             my: 5,
             justifyContent: "space-between",
           }}
         >
           <BoxText>
-            <Text sx={{ mr: 1 }}>
+            <Text sx={{ mr: 1, mb: 1 }}>
               Sistemas de alto desempenho, que agregam maior valor para os
               grãos. A número 1 do mundo é a sua melhor opção para ampliar a
               competitividade e a rentabilidade.
@@ -33,7 +33,13 @@ const SectionSolutions = () => {
             </Text>
           </BoxText>
         </Box>
-        <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+          }}
+        >
           <IconText>
             <Text>projetos customizados conforme necessidade do cliente</Text>
           </IconText>
@@ -41,7 +47,13 @@ const SectionSolutions = () => {
             <Text>entrega da solução mecânica completa</Text>
           </IconText>
         </Box>
-        <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+          }}
+        >
           <IconText>
             <Text>
               otimização do investimento: layout do projeto, disposição e
