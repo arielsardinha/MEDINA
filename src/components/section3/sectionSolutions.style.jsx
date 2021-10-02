@@ -17,6 +17,12 @@ export const IconText = styled("div")`
     left: -20px;
     top: -20px;
   }
+  svg {
+    color: ${({ theme }) => theme.palette.secondary.main};
+    position: absolute;
+    left: 0;
+    top: -30px;
+  }
 `;
 
 export const Title = styled(Typography)`

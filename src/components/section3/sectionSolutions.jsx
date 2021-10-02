@@ -1,7 +1,8 @@
-import { Container, Typography } from "@material-ui/core";
+import { Container } from "@material-ui/core";
 import { Box } from "@material-ui/system";
 import { BoxText, IconText, Title } from "./sectionSolutions.style";
 import { Text } from "../global.styled";
+import { Extension, Settings, ThumbUpAlt, Domain } from "@material-ui/icons";
 
 const SectionSolutions = () => {
   return (
@@ -41,9 +42,11 @@ const SectionSolutions = () => {
           }}
         >
           <IconText>
+            <Extension fontSize={"large"} />
             <Text>projetos customizados conforme necessidade do cliente</Text>
           </IconText>
           <IconText>
+            <Settings fontSize={"large"} />
             <Text>entrega da solução mecânica completa</Text>
           </IconText>
         </Box>
@@ -55,12 +58,14 @@ const SectionSolutions = () => {
           }}
         >
           <IconText>
+            <ThumbUpAlt fontSize={"large"} />
             <Text>
               otimização do investimento: layout do projeto, disposição e
               modelos de equipamentos que garantam qualidade e maior eficiência
             </Text>
           </IconText>
           <IconText>
+            <Domain fontSize={"large"} />
             <Text>tecnologia que maximiza os resultados da produção</Text>
           </IconText>
         </Box>
