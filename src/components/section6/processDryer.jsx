@@ -12,7 +12,7 @@ const ProcessDrayer = () => {
           </Title>
           <img src="process-dryer.png" alt="PROCESS DRYER" />
         </Box>
-        <Text>O melhor secador para você em</Text>
+        <Text>O melhor secador para você em:</Text>
         <ListUl>
           <li>
             <Text>Eficiência energética</Text>
