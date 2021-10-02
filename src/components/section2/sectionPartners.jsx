@@ -10,12 +10,12 @@ const SectionPartners = () => {
         <Box sx={{ display: "flex", flexDirection: "column" }}>
           <Box sx={{ my: 5 }}>
             <BoxIconPatners>
-              <img src="agco-back.png" alt="AGCO" />
-              <img src="chellenger.png" alt="challenger" />
-              <img src="fendt.png" alt="FENDT" />
-              <img src="massey.png" alt="Valtra" />
-              <img src="GSI.png" alt="GSI" />
-              <img src="valtra.png" alt="MAGSEY" />
+              <img data-aos="fade-up" src="agco-back.png" alt="AGCO" />
+              <img data-aos="fade-up" src="chellenger.png" alt="challenger" />
+              <img data-aos="fade-up" src="fendt.png" alt="FENDT" />
+              <img data-aos="fade-up"  src="massey.png" alt="Valtra" />
+              <img data-aos="fade-up" src="GSI.png" alt="GSI" />
+              <img data-aos="fade-up" src="valtra.png" alt="MAGSEY" />
             </BoxIconPatners>
             <Text sx={{ mt: 2 }}>
               A GSI integra o grupo de marcas líderes globais da AGCO, que tem
@@ -26,7 +26,7 @@ const SectionPartners = () => {
           </Box>
           <Box sx={{ my: 5 }}>
             <BoxIconPatners>
-              <img src="agco-finance.png" alt="AGCO" />
+              <img data-aos="fade-up" src="agco-finance.png" alt="AGCO" />
             </BoxIconPatners>
             <Text sx={{ mt: 2 }}>
               A GSI possui um banco próprio, especializado e exclusivo, para

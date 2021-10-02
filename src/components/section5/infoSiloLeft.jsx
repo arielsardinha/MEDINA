@@ -13,7 +13,7 @@ const InfoSiloLeft = () => {
             position: "relative",
           }}
         >
-          <ImgLeft src="img-silo.jpeg" alt="" />
+          <ImgLeft data-aos="fade-left" src="img-silo.jpeg" alt="" />
           <div>
             <Title variant={"h4"} sx={{ mb: 2 }} color={"white"}>
               Silo Fundo Plano

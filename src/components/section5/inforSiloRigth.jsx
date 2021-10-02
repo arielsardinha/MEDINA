@@ -39,7 +39,7 @@ const InfoSiloRigth = () => {
               </li>
             </ListUl>
           </div>
-          <ImgRigth src="img-silo.jpeg" alt="" />
+          <ImgRigth data-aos="fade-right" src="img-silo.jpeg" alt="" />
         </Box>
       </Container>
     </Section>

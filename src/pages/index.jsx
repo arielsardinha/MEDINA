@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Head from "next/head";
 import { BackgroundImgFlat, Container } from "../components/global.styled";
 import Home from "../components/home/home";
@@ -10,8 +11,13 @@ import InfoSiloRigth from "../components/section5/inforSiloRigth";
 import ProcessDrayer from "../components/section6/processDryer";
 import Transporter from "../components/section7/transporter";
 import Footer from "../components/footer/footer";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Index() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <>
       <Head>

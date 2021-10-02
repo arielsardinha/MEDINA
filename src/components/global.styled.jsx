@@ -21,7 +21,7 @@ export const Text = styled(Typography)`
 `;
 
 export const BackgroundImgFlat = styled("div")`
-  width: 100vw;
+  width: 100%;
   height: 100px;
   background-image: url("back-flet.jpg");
   background-attachment: fixed;
